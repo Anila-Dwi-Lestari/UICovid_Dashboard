@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cucitangan">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/cucitangan_banner" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/bg_cucitangan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:text="Bilas Tangan"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView32"
+            app:layout_constraintStart_toStartOf="@+id/imageView32"
+            app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/medium"
+            android:text="Mencuci Tangan Dengan Benar"
+            android:textColor="#0686C9"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:srcCompat="@drawable/cucitangan_step1" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="42dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView26"
+            app:layout_constraintStart_toEndOf="@+id/imageView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:srcCompat="@drawable/cucitangan_step2" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:srcCompat="@drawable/cucitangan_step3" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:text="Basahi Tangan"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView23"
+            app:layout_constraintStart_toStartOf="@+id/imageView23"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:text="Oleskan Sabun"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView24"
+            app:layout_constraintStart_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/regular"
+            android:text="SCRUB Tangan"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView26"
+            app:layout_constraintStart_toStartOf="@+id/imageView26"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView23"
+            app:layout_constraintStart_toStartOf="@+id/imageView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/cucitangan_step4" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView24"
+            app:layout_constraintStart_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            app:srcCompat="@drawable/cucitangan_step5" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView26"
+            app:layout_constraintStart_toStartOf="@+id/imageView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            app:srcCompat="@drawable/cucitangan_step6" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Belakang Tangan"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:text="Antara Jari Tangan"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView28"
+            app:layout_constraintStart_toStartOf="@+id/imageView28"
+            app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:text="Telapak Tangan"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView29"
+            app:layout_constraintStart_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toBottomOf="@+id/imageView29" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView31"
+            app:srcCompat="@drawable/cucitangan_step7" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView28"
+            app:layout_constraintStart_toStartOf="@+id/imageView28"
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            app:srcCompat="@drawable/cucitangan_step8" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView29"
+            app:layout_constraintStart_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            app:srcCompat="@drawable/cucitangan_step9" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/regular"
+            android:text="Kuku Dan Ujung Jari"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView30"
+            app:layout_constraintStart_toStartOf="@+id/imageView30"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:text="Jempol"
+            android:textColor="#0D1333"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView31"
+            app:layout_constraintStart_toStartOf="@+id/imageView31"
+            app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
